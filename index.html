@@ -181,6 +181,12 @@
       return tab ? tab.model.getValue() : '';
     };
 
+    window.sendActiveTabText = () => {
+    const tab = tabs.find(t => t.id === activeId);
+    const text = tab ? tab.model.getValue() : "";
+    window.chrome.webview.postMessage(text);
+};
+
     window.setActiveTabText = (text) => {
       const tab = tabs.find(t => t.id === activeId);
       if(tab && tab.model){ tab.model.setValue(text); }
