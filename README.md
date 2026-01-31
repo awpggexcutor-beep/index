@@ -26,8 +26,8 @@
 T5-Refiner-DomainFocus aims to empower models with intrinsic "semantic resilience" through pre-training stage strategy optimization, enabling more robust handling of text corruption and the injection of domain-specific expertise.
 
 ### 📖 Project Background
-During the digitization of medical records, OCR (Optical Character Recognition) often suffers from "character defects" in core terminology due to damaged paper, stamp occlusion, or other physical factors.
-Traditional T5 or mT5 models (collectively referred to as T5) face two major challenges when processing such corrupted text:
+During **the digitization of medical records**, **OCR (Optical Character Recognition)** often suffers from "character defects" in core terminology due to damaged paper, stamp occlusion, or other physical factors.
+Traditional **T5** or **mT5** models (collectively referred to as T5) face two major challenges when processing such corrupted text:
 * Limitations of Random Masking: The model learns to "guess" words based on sub-word roots rather than truly understanding complete medical concepts.
 * Tokenization Misalignment: When letters are missing from a term, the tokenizer breaks it into meaningless fragments, causing the model to lose its semantic focus.
 
