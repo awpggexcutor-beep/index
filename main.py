@@ -26,13 +26,13 @@ NORMAL_MASK_MAX_LENGTH = 3             # Maximum length of a randomly masked spa
 
 MAX_WORKERS = 12                        # Maximum number of threads for parallel sample generation
 
+
+CONTENT_RE = re.compile(r'[\u4e00-\u9fffA-Za-z0-9]')# Regex to identify content characters (Chinese, English letters, numbers)
+
+SENTENCE_SPLIT_RE = re.compile(r'([。！？；，,”\.\!\?\\n])')  # Can be adjusted for different text scenarios
+
 # --- Your T5 Tokenizer ---
 tokenizer = AutoTokenizer.from_pretrained(" ", use_fast=True)  # Load your T5 tokenizer here
-
-# Regex to identify content characters (Chinese, English letters, numbers)
-CONTENT_RE = re.compile(r'[\u4e00-\u9fffA-Za-z0-9]')
-
-SENTENCE_SPLIT_RE = re.compile(r'([。！？；，,”.\n])')  # Can be adjusted for different text scenarios
 
 def split_sentences(text):
     # Use global precompiled regex for splitting
