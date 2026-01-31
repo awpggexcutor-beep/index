@@ -553,8 +553,9 @@ Realizar a reparação ponta a ponta de textos danificados por OCR sem a necessi
 ## 🛠️ Requirements
 
 ```text
-
-
+transformers>=4.30.0  # HuggingFace Transformers
+regex                
+tqdm                
 ```
 ---
 <a name="References"></a>
