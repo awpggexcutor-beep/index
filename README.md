@@ -4,6 +4,18 @@
 ![Views](https://komarev.com/ghpvc/?username=llap4585&repo=T5-Refiner-DomainFocus&label=Project%20Views&color=blue&style=flat-square)
 
 ---
+
+---
+
+[Demo](#Demo) 
+
+[Requirements](#Requirements)
+
+[References](#References)
+
+[Privacy](#Privacy)
+
+---
 ### 项目背景
 在处理**医学档案数字化时**，**OCR（光学字符识别）** 常因纸质受损、印章遮挡等原因，导致核心术语出现“字符缺损”。
 传统的 **T5** 或 **mT5** 模型(统称T5）在处理这些受损文本时存在两个主要问题：
@@ -44,12 +56,23 @@
 ---
 
 ### 未来开发计划
-* 自动缺损感知
+* 自动缺损感知:
 利用分词器的“异常碎片”作为隐性信号。当 OCR 识别出现严重错位时，模型能通过分词序列的异常波动，自动定位到语义断裂处。
-* 语义自动对齐
+* 语义自动对齐:
 无需人工指定衔接点，实现模型对 OCR 损坏文本的端到端修复。
 
+---
+<a name="Demo"></a>
+## 📡 Demo
 
+---
+<a name="Requirements"></a>
+## 🛠️ Requirements
+
+```text
+
+
+```
 ---
 <a name="References"></a>
 ## 💪References / Citation
@@ -88,4 +111,17 @@ If you use this project, please cite it as:
 ```
 ---
 
+<a name="Privacy"></a>
+## 🛡️ Privacy & Security
+
+**Local Processing Only:** This tool performs all operations locally on your machine. No medical reports, patient data, or sensitive information are uploaded to any external servers or cloud services. Your data remains under your control at all times.
+
+**Third-party Disclaimer:** All third-party libraries required for operation are provided by the user's environment. These dependencies and their components are not under the management or control of this project.
+
+**仅限本地处理：** 本工具的所有操作均在您的本地计算机上执行。不会将任何医疗报告、患者数据或敏感信息上传到任何外部服务器或云服务。您的数据始终由您掌控。
+
+**第三方库声明：** 本工具运行所依赖的所有第三方库均由用户环境提供，这些第三方库及其相关组件不在本项目的管理与控制范围内。
+
+
+---
 > **Disclaimer:** The non-English and non-Chinese versions of this documentation are provided for convenience only and were generated using machine translation. In case of any discrepancy, the Chinese version shall prevail.
