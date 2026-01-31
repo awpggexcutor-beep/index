@@ -30,36 +30,36 @@
 ### 📖 Project Background
 During **the digitization of medical records**, **OCR (Optical Character Recognition)** often suffers from "character defects" in core terminology due to damaged paper, stamp occlusion, or other physical factors.
 Traditional **T5** or **mT5** models (collectively referred to as T5) face two major challenges when processing such corrupted text:
-* Limitations of Random Masking: The model learns to "guess" words based on sub-word roots rather than truly understanding complete medical concepts.
-* Tokenization Misalignment: When letters are missing from a term, the tokenizer breaks it into meaningless fragments, causing the model to lose its semantic focus.
+* **Limitations of Random Masking**: The model learns to "guess" words based on sub-word roots rather than truly understanding complete medical concepts.
+* **Tokenization Misalignment**: When letters are missing from a term, the tokenizer breaks it into meaningless fragments, causing the model to lose its semantic focus.
 
 ### ✅ Core Features
 This project enhances model capability by optimizing the data preprocessing pipeline rather than relying on complex hard-coded rules:
 
-* Expert Lexicon-Guided Atomic Masking:
+* **Expert Lexicon-Guided Atomic Masking**:
 By leveraging custom lexicons, the model is forced to treat professional terms (e.g., Acute Anterior Myocardial Infarction) as indivisible units during masking. This forces the model to derive answers from contextual logic rather than taking shortcuts via residual characters.
 
-* Manual Enhanced Training:
+* **Manual Enhanced Training**:
 Supports manual adjustment of masking probabilities for specific high-difficulty terms (💡Recommended: 50%-70%, not to exceed 80%), while simultaneously increasing the global masking rate (20%-25%).
 
-* Automatic Punctuation Avoidance:
+* **Automatic Punctuation Avoidance**:
 Prevents the introduction of noise interference during the masking process.
 
 By creating scenarios of "extreme information loss," the model is compelled to maintain accurate reconstruction of professional semantics even under the worst input conditions.
 
 ### ❗️ Training Notes
-* Preventing Early Stopping: After preprocessing, T5 models may exhibit slow loss reduction or local fluctuations, which can trick systems into stopping training prematurely.
-* Convergence Judgment: It is recommended to extend training duration and evaluate convergence based on whether the loss decreases steadily across multiple stages. Insufficient training will significantly degrade restoration performance.
+* **Preventing Early Stopping**: After preprocessing, T5 models may exhibit slow loss reduction or local fluctuations, which can trick systems into stopping training prematurely.
+* **Convergence Judgment**: It is recommended to extend training duration and evaluate convergence based on whether the loss decreases steadily across multiple stages. Insufficient training will significantly degrade restoration performance.
 
 ### 📊 Evaluation
 Based on preliminary testing with the mT5-base standard model:
-* Standard Model Performance: The restoration rate for specialized terminology is estimated to be below 60%. The remaining 40% of results are often logically incoherent and unacceptable for professional use.
-* With DomainFocus Improvement: The estimated restoration rate reaches 85%. Of the remaining 15% error margin, most are semantic synonyms, which greatly improves the overall readability and logical consistency of the text.
+* **Standard Model Performance**: The restoration rate for specialized terminology is estimated to be below 60%. The remaining 40% of results are often logically incoherent and unacceptable for professional use.
+* **With DomainFocus Improvement**: The estimated restoration rate reaches 85%. Of the remaining 15% error margin, most are semantic synonyms, which greatly improves the overall readability and logical consistency of the text.
 
 ### ⚠️ Limitations
-* Context Fragmentation: Due to the limited sequence length and the restricted number of masks per segment, long documents may suffer from semantic disconnection during chunking. It is recommended to feed partial overlapping context back during re-training.
-* Algorithmic Limits: Since T5 restoration is based on statistical probability, it is impossible to guarantee 100% accuracy when dealing with highly complex text.
-* Domain Dependency: The restoration effectiveness is highly dependent on the coverage and depth of the predefined expert lexicon.
+* **Context Fragmentation**: Due to the limited sequence length and the restricted number of masks per segment, long documents may suffer from semantic disconnection during chunking. It is recommended to feed partial overlapping context back during re-training.
+* **Algorithmic Limits**: Since T5 restoration is based on statistical probability, it is impossible to guarantee 100% accuracy when dealing with highly complex text.
+* **Domain Dependency**: The restoration effectiveness is highly dependent on the coverage and depth of the predefined expert lexicon.
 
 ### 🌌 Future Roadmap
 * Automatic Defect Sensing:
