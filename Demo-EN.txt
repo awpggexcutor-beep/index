@@ -1,0 +1,34 @@
+Original:
+The unenforceability of the counterparty’s obligations under the non-disclosure agreement (NDA), due to deficiencies in contractual validity, governing law clauses, or consideration requirements, directly resulted in a complex jurisdictional challenge. This challenge concerned not only subject-matter jurisdiction but also personal jurisdiction and forum selection in cross-border commercial disputes.
+
+Specifically, the dispute raised significant legal questions regarding the extra-territorial application of the statute, including whether the relevant domestic legislation could lawfully extend beyond national borders to regulate conduct occurring in a foreign jurisdiction. The issue implicated principles of private international law, conflict of laws, choice-of-law doctrines, and international comity, thereby complicating enforcement mechanisms and judicial competence across multiple legal systems.
+
+
+
+The patient was definitively diagnosed with electrocardiographically confirmed hypertrophic cardiomyopathy (HCM), as evidenced by characteristic findings on 12-lead electrocardiogram, transthoracic echocardiography, and, where applicable, cardiac magnetic resonance imaging (CMR). The condition was associated with abnormal myocardial hypertrophy, diastolic dysfunction, and electrical instability.
+
+Given the elevated risk of supraventricular tachycardia (SVT) and other malignant arrhythmias secondary to myocardial disarray, the patient required immediate radiofrequency catheter ablation (RFCA). This interventional electrophysiological procedure aimed to eliminate aberrant conduction pathways, stabilize cardiac rhythm, reduce symptomatic episodes, and prevent progression to more severe arrhythmogenic complications, including atrial fibrillation or sudden cardiac death.
+
+Keywords:
+national borders
+hypertrophic cardiomyopathy
+radiofrequency catheter ablation
+
+Output:
+*The algorithm for automatically merging nearby masked spans is activated.
+
+{"inputs": "The unenforceab<extra_id_0>ity of the counterparty’s <extra_id_1> under the non-disclosure agreem<extra_id_2> (NDA),<extra_id_3> to deficienci<extra_id_4> contractual validity,govern<extra_id_5> law c<extra_id_6>es,or <extra_id_7>ation req<extra_id_8>rements,di<extra_id_9>ly re<extra_id_10> in a complex jurisdictional challenge. Thi<extra_id_11> chall<extra_id_12> con<extra_id_13> subject-matter juris<extra_id_14> but also personal jurisdi<extra_id_15> and forum select<extra_id_16> in cross-border com<extra_id_17> disputes.Spec<extra_id_18>y,", "targets": "<extra_id_0>il<extra_id_1>obligations<extra_id_2>ent<extra_id_3>due<extra_id_4>es in<extra_id_5>ing<extra_id_6>laus<extra_id_7>consider<extra_id_8>ui<extra_id_9>rect<extra_id_10>sulted<extra_id_11>s<extra_id_12>enge<extra_id_13>cerned not only<extra_id_14>diction<extra_id_15>ction<extra_id_16>ion<extra_id_17>mercial<extra_id_18>ificall"}
+
+Hit:<extra_id_7> national borders
+
+{"inputs": "the dispute raised s<extra_id_0>nt legal questions re<extra_id_1>ing the extra-territo<extra_id_2>al application of the statute,in<extra_id_3>uding whether the re<extra_id_4> domest<extra_id_5>lation c<extra_id_6> lawfully extend beyond<extra_id_7> to regulate <extra_id_8>ct occurring in a <extra_id_9>n jurisdict<extra_id_10>. The issue implicated principles of <extra_id_11>riv<extra_id_12>ational law,conflict of law<extra_id_13>,choice-of-law <extra_id_14>trines,and <extra_id_15>ational comity,", "targets": "<extra_id_0>ignifica<extra_id_1>gard<extra_id_2>ri<extra_id_3>cl<extra_id_4>levant<extra_id_5>ic legis<extra_id_6>ould<extra_id_7> national borders<extra_id_8>condu<extra_id_9>foreig<extra_id_10>ion<extra_id_11>p<extra_id_12>ate intern<extra_id_13>s<extra_id_14>doc<extra_id_15>intern"}
+
+Hit:<extra_id_6> hypertrophic cardiomyopathy
+
+{"inputs": "and <extra_id_0>al comity,thereby complicating enforcement mechanisms and judicial competence across m<extra_id_1>le legal systems.<extra_id_2> pati<extra_id_3> was definitively diagnosed with e<extra_id_4>rocardiographi<extra_id_5> confirmed<extra_id_6>CM),<extra_id_7> evidenced by characteristic findings on 12-lead e<extra_id_8>rocard<extra_id_9>am,tra<extra_id_10>acic echocardiog<extra_id_11>,and,where applica<extra_id_12>,cardiac ma<extra_id_13> resonance imaging (CMR). The cond<extra_id_14> was associated w<extra_id_15> abnormal myocardial hypertrophy,", "targets": "<extra_id_0>internation<extra_id_1>ultip<extra_id_2>The<extra_id_3>ent<extra_id_4>lect<extra_id_5>cally<extra_id_6> hypertrophic cardiomyopathy (H<extra_id_7>as<extra_id_8>lect<extra_id_9>iogr<extra_id_10>nsthor<extra_id_11>raphy<extra_id_12>ble<extra_id_13>gnetic<extra_id_14>ition<extra_id_15>ith"}
+
+Hit:<extra_id_5>diate radiofrequency catheter ablation
+
+{"inputs": "diast<extra_id_0> dysfunction,<extra_id_1>ical ins<extra_id_2>ity.Given the elevated risk of supraventricular tachycardia (SVT) and other malignant <extra_id_3>mias secondary to myocardial disarray,the pa<extra_id_4> required imme<extra_id_5> (RFCA). This inter<extra_id_6>al <extra_id_7>rophysiological procedure aimed to eliminate aberrant conduction pathways,stabilize cardiac rhythm,red<extra_id_8> symptomatic ep<extra_id_9>,", "targets": "<extra_id_0>olic<extra_id_1>and electr<extra_id_2>tabil<extra_id_3>arrhyth<extra_id_4>tient<extra_id_5>diate radiofrequency catheter ablation<extra_id_6>vention<extra_id_7>elect<extra_id_8>uce<extra_id_9>isodes"}
+{"inputs": "red<extra_id_0>ce symptoma<extra_id_1> episode<extra_id_2>,and prevent pro<extra_id_3> to more severe arrhythmog<extra_id_4>plications,", "targets": "<extra_id_0>u<extra_id_1>tic<extra_id_2>s<extra_id_3>gression<extra_id_4>enic com"}
+
