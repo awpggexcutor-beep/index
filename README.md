@@ -589,7 +589,7 @@ Realizar a reparação ponta a ponta de textos danificados por OCR sem a necessi
 <a name="Prerequisites"></a>
 
 
-## Prerequisites
+## Prerequisites - without experience using T5 or mT5
 
 **If you have experience in T5 or mT5**: [Requirements](#Requirements)
 
@@ -613,6 +613,8 @@ Realizar a reparação ponta a ponta de textos danificados por OCR sem a necessi
 >2. **Masking（マスキング）**：学習時に一部の単語やサブワードを隠し、モデルが文脈から欠損部分を予測できるようにする手法です。  
 >3. **Tokenization（トークナイズ/分割）**：テキストを単語やサブワードに分割し、モデルが処理可能な数値列に変換するプロセスです。  
 >これらの概念は、T5‑Refiner‑DomainFocusプロジェクトを理解し使用する上で必須です。
+
+[Introduction](#Introduction)
 
 ---
 <a name="Requirements"></a>
