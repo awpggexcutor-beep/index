@@ -587,9 +587,8 @@ Realizar a reparação ponta a ponta de textos danificados por OCR sem a necessi
 
 ---
 <a name="Prerequisites"></a>
-## Prerequisites
+>## Prerequisites
 > **English:**
-
 >If you are not familiar with Transformer models and pretraining mechanisms, it is recommended to study the following topics first:  
 >1. **T5 Model**: A Transformer-based text generation model, useful for text repair, translation, summarization, and other NLP tasks.  
 >2. **Masking**: A training strategy where certain words or subwords are hidden, so the model learns to predict missing content from context.  
@@ -597,13 +596,18 @@ Realizar a reparação ponta a ponta de textos danificados por OCR sem a necessi
 >These concepts are essential for understanding and using the T5‑Refiner‑DomainFocus project.
 
 > **中文：**
-
 >如果你不了解 Transformer 模型和预训练机制，建议先学习以下内容：  
 >1. **T5 模型**：一种基于 Transformer 的文本生成模型，可用于文本修复、翻译、摘要等任务。  
 >2. **Masking（遮蔽策略）**：在训练中随机遮蔽部分词或子词，让模型学习根据上下文预测缺失内容。  
 >3. **Tokenization（分词/编码）**：将文本拆分成词或子词，并转换为模型可处理的数字序列。  
+>这些概念是理解和使用 T5‑Refiner‑DomainFocus 项目的基础。
 
->这些概念是理解和使用 T5‑Refiner‑DomainFocus 项目的基础。  
+> **日本語 / Japanese:**  
+>Transformerモデルや事前学習の仕組みに慣れていない場合は、以下の内容を学ぶことをおすすめします：  
+>1. **T5モデル**：Transformerに基づくテキスト生成モデルで、テキスト修復、翻訳、要約などに使用可能です。  
+>2. **Masking（マスキング）**：学習時に一部の単語やサブワードを隠し、モデルが文脈から欠損部分を予測できるようにする手法です。  
+>3. **Tokenization（トークナイズ/分割）**：テキストを単語やサブワードに分割し、モデルが処理可能な数値列に変換するプロセスです。  
+>これらの概念は、T5‑Refiner‑DomainFocusプロジェクトを理解し使用する上で必須です。
 
 ---
 <a name="Requirements"></a>
